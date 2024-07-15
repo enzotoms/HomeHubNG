@@ -12,7 +12,7 @@ export async function POST(
 ) {
   try {
     const currentUser = await getCurrentUser();
-
+console.log(params)
     if (!currentUser) {
       console.error('User not authenticated');
       return NextResponse.json({ error: 'User not authenticated' }, { status: 401 });
