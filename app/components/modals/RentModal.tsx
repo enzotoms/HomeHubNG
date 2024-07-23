@@ -55,7 +55,7 @@ const {
     imageSrc: '',
     price: 1,
     title: '',
-    description:''
+    description:'', 
   }
 });
 
@@ -235,6 +235,27 @@ if (step === STEPS.INFO) {
           <Input
             id="description"
             label="Description"
+            disabled={isLoading}
+            register={register}
+            errors={errors}
+            required
+          />
+            <hr />
+           {/* @ts-ignore */}
+           <Input
+            id="propertyOffer"
+            label="What does this property offer?"
+            disabled={isLoading}
+            register={register}
+            errors={errors}
+            required
+          />
+
+<hr />
+           {/* @ts-ignore */}
+           <Input
+            id="thingsTNote"
+            label="Things to know! e.g House rules, Safety of property, Cancellation policy..."
             disabled={isLoading}
             register={register}
             errors={errors}

@@ -12,7 +12,7 @@ export async function POST(
     }
 
     const body = await request.json();
-    const { title, description,
+    const { title, description, 
         imageSrc,
         category,
         roomCount,

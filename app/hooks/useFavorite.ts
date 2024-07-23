@@ -45,7 +45,7 @@ const useFavorite = ({
             router.refresh();
             toast.success('Your favorite has been saved!');
         } catch (error) {
-            toast.error('Something went wrong');
+            toast.error('Please Log-In');
         }
     }, [
         currentUser,
