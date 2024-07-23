@@ -240,27 +240,6 @@ if (step === STEPS.INFO) {
             errors={errors}
             required
           />
-            <hr />
-           {/* @ts-ignore */}
-           <Input
-            id="propertyOffer"
-            label="What does this property offer?"
-            disabled={isLoading}
-            register={register}
-            errors={errors}
-            required
-          />
-
-<hr />
-           {/* @ts-ignore */}
-           <Input
-            id="thingsTNote"
-            label="Things to know! e.g House rules, Safety of property, Cancellation policy..."
-            disabled={isLoading}
-            register={register}
-            errors={errors}
-            required
-          />
       </div>
     )
   }
