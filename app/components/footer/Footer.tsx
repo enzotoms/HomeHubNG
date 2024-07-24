@@ -63,10 +63,10 @@ const Footer = () => {
   <a href="#" className="text-xl hover:text-gray-400"><FaYoutube /></a>
 </div>
 
-        <div className="flex justify-between items-center pt-4">
+        <div className="flex justify-between items-center pt-6 mt-6">
           <span>&copy; 2024 <a href="#" className="hover:text-gray-400">HomeHubNG</a> All rights reserved</span>
 
-          <div className="hidden md:flex items-center justify-center space-x-5 mb-2">
+          <div className="hidden md:flex items-center justify-center space-x-5">
   <a href="#" className="text-xl hover:text-gray-400"><FaFacebookF /></a>
   <a href="#" className="text-xl hover:text-gray-400"><FaTwitter /></a>
   <a href="#" className="text-xl hover:text-gray-400"><FaInstagram /></a>
