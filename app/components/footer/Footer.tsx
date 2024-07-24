@@ -47,14 +47,15 @@ const Footer = () => {
             <li><input type="button" value="Subscribe" className="p-2 w-full bg-green-500 hover:bg-green-800 text-white rounded-md cursor-pointer" /></li>
           </ul>
 
-          <div className="flex items-center space-x-5">
-            <a href="#" className="text-xl hover:text-gray-400"><FaFacebookF /></a>
-            <a href="#" className="text-xl hover:text-gray-400"><FaTwitter /></a>
-            <a href="#" className="text-xl hover:text-gray-400"><FaInstagram /></a>
-            <a href="#" className="text-xl hover:text-gray-400"><FaLinkedinIn /></a>
-            <a href="#" className="text-xl hover:text-gray-400"><FaYoutube /></a>
-          </div>
         </div>
+        
+        <div className="flex items-center justify-center space-x-5 mb-6">
+                <a href="#" className="text-xl hover:text-gray-400"><FaFacebookF /></a>
+                <a href="#" className="text-xl hover:text-gray-400"><FaTwitter /></a>
+                <a href="#" className="text-xl hover:text-gray-400"><FaInstagram /></a>
+                 <a href="#" className="text-xl hover:text-gray-400"><FaLinkedinIn /></a>
+                 <a href="#" className="text-xl hover:text-gray-400"><FaYoutube /></a>
+            </div>
 
         
 
