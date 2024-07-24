@@ -7,11 +7,18 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto p-6">
         <div className="flex justify-between items-center mb-6">
           <div className="flex items-center">
-           
             <span className="text-3xl font-bold">HomeHubNG</span>
           </div>
-          
         </div>
+        <p className='mb-10 mt-5 justify-center'><b>Welcome to HomeHubNG – Your Cozy Corner of Comfort</b>, At HomeHubNG 
+          we believe that home is where the heart is. Our platform connects
+           you with warm and inviting spaces, each thoughtfully curated to provide
+            a sense of belonging and comfort. Whether you're searching for a new
+             place to call home or looking to list your property, HomeHubNG is your
+              trusted partner in finding that perfect, homely abode. Come home to HomeHubNG, 
+              where every house feels like home.</p>
+              <div className="flex justify-between items-center border-t border-gray-600 pt-4 pb-6"></div>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mb-6">
           <ul>
             <li className="font-bold mb-2 text-2xl">Company</li>
@@ -46,7 +53,6 @@ const Footer = () => {
             <li><input type="text" placeholder="Enter your email" className="p-2 w-full text-black rounded-md mb-2" /></li>
             <li><input type="button" value="Subscribe" className="p-2 w-full bg-green-500 hover:bg-green-800 text-white rounded-md cursor-pointer" /></li>
           </ul>
-
         </div>
         
         <div className="flex items-center justify-center space-x-5 mb-6">
@@ -57,7 +63,6 @@ const Footer = () => {
                  <a href="#" className="text-xl hover:text-gray-400"><FaYoutube /></a>
             </div>
 
-        
 
         <div className="flex justify-between items-center border-t border-gray-700 pt-4">
           <span>&copy; 2024 <a href="#" className="hover:text-gray-400">HomeHubNG</a> All rights reserved</span>
