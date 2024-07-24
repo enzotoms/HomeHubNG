@@ -14,7 +14,7 @@ const Logo = () => {
               width="100"
                height="100" 
                src="/images/pngegg.png"
-               /> HomeHubNG
+               />  <a href="http://localhost:3000/" className="text-green-600  sm:text-base text-xs">HomeHubNG</a>
            </div>
     )
 }
