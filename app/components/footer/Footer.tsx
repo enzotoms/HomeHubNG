@@ -10,13 +10,7 @@ const Footer = () => {
            
             <span className="text-3xl font-bold">HomeHubNG</span>
           </div>
-          <div className="flex space-x-4">
-            <a href="#" className="text-xl hover:text-gray-400"><FaFacebookF /></a>
-            <a href="#" className="text-xl hover:text-gray-400"><FaTwitter /></a>
-            <a href="#" className="text-xl hover:text-gray-400"><FaInstagram /></a>
-            <a href="#" className="text-xl hover:text-gray-400"><FaLinkedinIn /></a>
-            <a href="#" className="text-xl hover:text-gray-400"><FaYoutube /></a>
-          </div>
+          
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mb-6">
           <ul>
@@ -52,7 +46,18 @@ const Footer = () => {
             <li><input type="text" placeholder="Enter your email" className="p-2 w-full text-black rounded-md mb-2" /></li>
             <li><input type="button" value="Subscribe" className="p-2 w-full bg-green-500 hover:bg-green-800 text-white rounded-md cursor-pointer" /></li>
           </ul>
+
+          <div className="flex items-center space-x-5">
+            <a href="#" className="text-xl hover:text-gray-400"><FaFacebookF /></a>
+            <a href="#" className="text-xl hover:text-gray-400"><FaTwitter /></a>
+            <a href="#" className="text-xl hover:text-gray-400"><FaInstagram /></a>
+            <a href="#" className="text-xl hover:text-gray-400"><FaLinkedinIn /></a>
+            <a href="#" className="text-xl hover:text-gray-400"><FaYoutube /></a>
+          </div>
         </div>
+
+        
+
         <div className="flex justify-between items-center border-t border-gray-700 pt-4">
           <span>&copy; 2024 <a href="#" className="hover:text-gray-400">HomeHubNG</a> All rights reserved</span>
           <span>
