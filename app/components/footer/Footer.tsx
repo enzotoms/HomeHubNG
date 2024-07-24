@@ -17,7 +17,7 @@ const Footer = () => {
              place to call home or looking to list your property, HomeHubNG is your
               trusted partner in finding that perfect, homely abode. Come home to HomeHubNG, 
               where every house feels like home.</p>
-              <div className="flex justify-between items-center border-t border-gray-600 pt-4 pb-6"></div>
+              
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mb-6">
           <ul>
