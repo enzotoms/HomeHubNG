@@ -10,7 +10,7 @@ const Logo = () => {
              <Image 
                 onClick={() => router.push('/')}
              alt="HomeHubNG Logo"
-             className="hidden md:block cursor-pointer"
+             className="md:block cursor-pointer"
               width="100"
                height="100" 
                src="/images/pngegg.png"
