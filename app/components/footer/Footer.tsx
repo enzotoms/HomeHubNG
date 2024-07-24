@@ -10,7 +10,7 @@ const Footer = () => {
             <span className="text-3xl font-bold">HomeHubNG</span>
           </div>
         </div>
-        <p className='mb-10 mt-5 justify-center'><b>Welcome to HomeHubNG – Your Cozy Corner of Comfort</b>, At HomeHubNG 
+        <p className='mb-20 mt-5 justify-center'><b>Welcome to HomeHubNG – Your Cozy Corner of Comfort</b>, At HomeHubNG 
           we believe that home is where the heart is. Our platform connects
            you with warm and inviting spaces, each thoughtfully curated to provide
             a sense of belonging and comfort. Whether you're searching for a new
@@ -64,7 +64,7 @@ const Footer = () => {
             </div>
 
 
-        <div className="flex justify-between items-center border-t border-gray-700 pt-4">
+        <div className="flex justify-between items-center  pt-4">
           <span>&copy; 2024 <a href="#" className="hover:text-gray-400">HomeHubNG</a> All rights reserved</span>
           <span>
             <a href="#" className="hover:text-gray-400">Privacy policy</a> | 
