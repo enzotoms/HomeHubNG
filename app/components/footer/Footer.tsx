@@ -55,17 +55,25 @@ const Footer = () => {
           </ul>
         </div>
         
-        <div className="flex items-center justify-center space-x-5 mb-6">
-                <a href="#" className="text-xl hover:text-gray-400"><FaFacebookF /></a>
-                <a href="#" className="text-xl hover:text-gray-400"><FaTwitter /></a>
-                <a href="#" className="text-xl hover:text-gray-400"><FaInstagram /></a>
-                 <a href="#" className="text-xl hover:text-gray-400"><FaLinkedinIn /></a>
-                 <a href="#" className="text-xl hover:text-gray-400"><FaYoutube /></a>
-            </div>
+        <div className="flex items-center justify-center space-x-5 mb-6 block md:hidden">
+  <a href="#" className="text-xl hover:text-gray-400"><FaFacebookF /></a>
+  <a href="#" className="text-xl hover:text-gray-400"><FaTwitter /></a>
+  <a href="#" className="text-xl hover:text-gray-400"><FaInstagram /></a>
+  <a href="#" className="text-xl hover:text-gray-400"><FaLinkedinIn /></a>
+  <a href="#" className="text-xl hover:text-gray-400"><FaYoutube /></a>
+</div>
 
-
-        <div className="flex justify-between items-center  pt-4">
+        <div className="flex justify-between items-center pt-4">
           <span>&copy; 2024 <a href="#" className="hover:text-gray-400">HomeHubNG</a> All rights reserved</span>
+
+          <div className="hidden md:flex items-center justify-center space-x-5 mb-2">
+  <a href="#" className="text-xl hover:text-gray-400"><FaFacebookF /></a>
+  <a href="#" className="text-xl hover:text-gray-400"><FaTwitter /></a>
+  <a href="#" className="text-xl hover:text-gray-400"><FaInstagram /></a>
+  <a href="#" className="text-xl hover:text-gray-400"><FaLinkedinIn /></a>
+  <a href="#" className="text-xl hover:text-gray-400"><FaYoutube /></a>
+</div>
+
           <span>
             <a href="#" className="hover:text-gray-400">Privacy policy</a> | 
             <a href="#" className="hover:text-gray-400 ml-2">Terms & condition</a>
