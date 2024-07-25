@@ -14,7 +14,7 @@ const Logo = () => {
               width="100"
                height="100" 
                src="/images/pngegg.png"
-               /> <a href="http://localhost:3000/" className="text-green-600 font-extrabold sm:text-base text-xs text-bold">HomeHubNG</a>
+               /> <a href="https://home-hub-ng.vercel.app/" className="text-green-600 font-extrabold sm:text-base text-xs text-bold">HomeHubNG</a>
 
            </div>
     )
